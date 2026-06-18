@@ -1,0 +1,209 @@
+/* POORE PAGE KA DEFAULT STYLE CODE */
+
+body {
+    font-family: 'Arial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+header {
+    text-align: center;
+    background-color: #1a2a3a;
+    padding: 40px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h2 {
+    color: #1a2a3a;
+    border-bottom: 2px solid #1a2a3a;
+    padding-bottom: 5px;
+}
+
+
+ul {
+    color: #333;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+link {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+hover link {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #84d81d;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #1a2a3a;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a2a3a;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.navbar .logo {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    transition: all 0.3s ease;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li {
+    margin-left: 20px
+}
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: #84d81d;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* Responsive Design for Mobile Devices */
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-links li {
+        margin-left: 0;
+    }
+
+
+    .container {
+        flex-direction: column;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+}
+
+
+#projects {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.projects-container {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.project-card {
+    transition: all 0.3s ease;
+    background-color: #2e0ced;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    width: 50%;
+}
+.project-card h3 {
+    margin-top: 0;
+    color: #13e5ec;
+}
+.project-card p {
+    color: #0e0126;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333333;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 102, 204, 0.2);
+}
+
+#live-greeting {
+    font-size: 1.6rem;
+    color: #84d81d;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
